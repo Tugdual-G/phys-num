@@ -22,7 +22,7 @@ par n'importe quel point de  X[i,:] et Y[i,:]).
 x est constant sur les colones de X, et y est constant sur les lignes de Y, c'est un repère
  de l'espace. Les matrices X et Y ont deux dimentions dans notre cas. 
 La matrice 2d X est de la largeur de la matrice ligne x,
- et de la hauteur de y, de même pour la matrice 2d Y """
+ et sa hauteur correspond à la longeur de la matrice ligne y, de même pour la matrice 2d Y """
 
 # Création des grille d'espace X et Y, grace à meshgrid:
 X, Y = np.meshgrid(x,y)
