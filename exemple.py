@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 """Création de l'enssemble des valeurs de x et de y, représentant l'espace, 
-en m par exemple"""
+en mètres par exemple"""
 
 x = np.linspace(-5,5,1000)
 y = np.linspace(-4,4,1000)
