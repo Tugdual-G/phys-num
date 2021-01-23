@@ -29,7 +29,7 @@ X, Y = np.meshgrid(x,y)
 
 """Grace aux grilles X et Y on peut définir une fonction de deux variables.
 Les valeurs de cette fonction sont stockées dans une matrice (2d)
- de même dimentions que X et Y."""
+ de même dimensions que X et Y."""
 Z = np.cos(3*(X**2 + Y**2)**0.5)
 
 """On affiche en couleurs les valeurs de z, - vers + => sombre vers clair"""
