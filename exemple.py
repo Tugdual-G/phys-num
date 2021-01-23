@@ -27,7 +27,7 @@ La matrice 2d X est de la largeur de la matrice ligne x,
 # Création des grille d'espace X et Y, grace à meshgrid:
 X, Y = np.meshgrid(x,y)
 
-"""Grace aux grilles X et Y on peut définir une fonction de deux varriables.
+"""Grace aux grilles X et Y on peut définir une fonction de deux variables.
 Les valeurs de cette fonction sont stockées dans une matrice (2d)
  de même dimentions que X et Y."""
 Z = np.cos(3*(X**2 + Y**2)**0.5)
