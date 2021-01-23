@@ -34,7 +34,7 @@ Z = np.cos(3*(X**2 + Y**2)**0.5)
 
 """On affiche en couleurs les valeurs de z, - vers + => sombre vers clair"""
 #graph 1:
-fig = plt.figure(figsize = (3,1))
+fig = plt.figure(figsize = (13,4))
 ax1 = plt.subplot(1,3,1)
 #Colormesh est comme plt.plot() mais en 3 dimensions avec des couleurs pour la 3ème dimensions (Z).
 plt.pcolormesh(X,Y,X, cmap = 'hot', shading ='nearest')
@@ -57,7 +57,7 @@ ax3.set_title('z = cos(3*(X**2 + Y**2)**0.5)')
 plt.pcolormesh(X,Y,Z, cmap = 'hot', shading ='nearest')
 
 #marges
-fig.subplots_adjust(left = 0.05, bottom = 0.1,
+fig.subplots_adjust(left = 0.05, bottom = 0.15,
                        right = 0.95, top = 0.9, wspace = 0.25, hspace = 0)
 #Pour Théo
 plt.show()
