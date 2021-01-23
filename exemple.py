@@ -16,7 +16,7 @@ y = np.linspace(-4,4,1000)
 
 # Création des grille d'espace X et Y:
 """ Ces grilles permettent d'associer à chaque point (i,j) de 
-l'espace discrètisé, son emplacement dans l'espace 'modélisé' où 'réel'. L'emplacement 
+l'espace discrétisé, son emplacement dans l'espace 'modélisé' où 'réel'. L'emplacement 
 en x et en y est donné par X[i,j] et par Y[i,j] (ou plus simplement 
 par n'importe quel point de  X[i,:] et Y[i,:]).
 x est constant sur les colones de X, et y est constant sur les lignes de Y, c'est un repère
