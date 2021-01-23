@@ -59,3 +59,5 @@ plt.pcolormesh(X,Y,Z, cmap = 'hot', shading ='nearest')
 #marges
 fig.subplots_adjust(left = 0.05, bottom = 0.1,
                        right = 0.95, top = 0.9, wspace = 0.25, hspace = 0)
+#Pour Théo
+plt.show()
