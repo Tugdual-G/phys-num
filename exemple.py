@@ -36,6 +36,7 @@ Z = np.cos(3*(X**2 + Y**2)**0.5)
 #graph 1:
 fig = plt.figure(figsize = (3,1))
 ax1 = plt.subplot(1,3,1)
+#Colormesh est comme plt.plot() mais en 3 dimensions avec des couleurs pour la 3ème dimesions (Z).
 plt.pcolormesh(X,Y,X, cmap = 'hot', shading ='nearest')
 ax1.set_xlabel('x')
 ax1.set_ylabel('y')
