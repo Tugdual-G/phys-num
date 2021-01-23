@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 en mètres par exemple"""
 
 x = np.linspace(-5,5,1000)
-y = np.linspace(-4,4,1000)
+y = np.linspace(-3,3,1000)
 
 # Création des grille d'espace X et Y:
 """ Ces grilles permettent d'associer à chaque point (i,j) de 
