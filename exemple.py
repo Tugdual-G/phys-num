@@ -20,7 +20,7 @@ l'espace discrètisé, son emplacement dans l'espace 'modélisé' où 'réel'. L
 en x et en y est donné par X[i,j] et par Y[i,j] (ou plus simplement 
 par n'importe quel point de  X[i,:] et Y[i,:]).
 x est constant sur les colones de X, et y est constant sur les lignes de Y, c'est un repère
- de l'espace. Les matrices X et Y ont deux dimentions deans notre cas. 
+ de l'espace. Les matrices X et Y ont deux dimentions dans notre cas. 
 La matrice 2d X est de la largeur de la matrice ligne x,
  et de la hauteur de y, de même pour la matrice 2d Y """
 
@@ -28,7 +28,7 @@ La matrice 2d X est de la largeur de la matrice ligne x,
 X, Y = np.meshgrid(x,y)
 
 """Grace aux grilles X et Y on peut définir une fonction de deux varriables.
-Les valeur de cette fonction sont stockées dans une matrice (2d)
+Les valeurs de cette fonction sont stockées dans une matrice (2d)
  de même dimentions que X et Y."""
 Z = np.cos(3*(X**2 + Y**2)**0.5)
 
