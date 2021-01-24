@@ -60,7 +60,7 @@ y = np.empty((len(t)))
 x[0] = 0
 y[0] = 0
 
-# X_Dt : Déplacement de la balle entre chaque itération de la boucle 2
+# X_Dt : Déplacement de la balle entre chaque itération de la boucle 1
 # initialisation:
 x_Dt = 0
 y_Dt = 0
