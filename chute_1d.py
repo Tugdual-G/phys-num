@@ -4,13 +4,15 @@ Created on Sun Jan 24 19:21:58 2021
 
 @author: tugdual
 
-Chute d'un objet, shéma le plus simple, Euler en temps <=> RK d'ordre 1.
+Chute d'un objet avec frottements, shéma le plus simple, Euler en temps <=> RK d'ordre 1.
 Chute en 1 dimension.
 """
 import numpy as np
 import matplotlib.pyplot as plt
 
 g = 10
+
+# Coefs liés aux frottements de l'air
 m = 1
 rho = 1.22
 C_x = 0.5
