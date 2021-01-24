@@ -33,6 +33,8 @@ v = np.empty((len(t)))
 
 # Condition initiale
 v[0] = 0
+
+# Initialisation 
 v_0 = 0
 v_1 = 0
 
