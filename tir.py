@@ -104,6 +104,5 @@ plt.annotate('Arrivée', xy = (x[len(x)-1],y[len(y)-1]), xytext=(-10,0),
                  textcoords = 'offset points', color = 'black')
 plt.xlabel('L (m)')
 plt.ylabel('H (m)')
-plt.legend()
 plt.grid()
 plt.show()
