@@ -38,16 +38,14 @@ v[0] = 0
 
 # Initialisation 
 v_0 = 0
-v_1 = 0
 
 for i in range(len(t)-1):
     # Intégration de l'équation sur le temps Delta_t:
     for j in range(int(Delta_t/dt)):        
         dv = -(g + C*v_0*np.abs(v_0))
-        v_1 = v_0 + dv*dt
-        v_0 = v_1
+        v_0 = v_0 + dv*dt
     # Stockage de la valeur de la vitesse 
-    v[i+1] = v_1
+    v[i+1] = v_0
     
 plt.plot(t,v)
 plt.xlabel('temps en secondes')
