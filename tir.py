@@ -65,6 +65,7 @@ y[0] = 0
 x_Dt = 0
 y_Dt = 0
 
+#Résolution de l'équation diff:
 for i in range(len(t)-1):
     # Intégration de l'équation sur le temps Delta_t:
     x_Dt = 0
