@@ -8,7 +8,7 @@ Created on Sat Jan 23 12:19:08 2021
 import numpy as np
 import matplotlib.pyplot as plt
 
-"""Création de l'enssemble des valeurs de x et de y, représentant l'espace, 
+"""Création de l'ensemble des valeurs de x et de y, représentant l'espace, 
 en mètres par exemple"""
 
 x = np.linspace(-5,5,1000)
